@@ -1,0 +1,47 @@
+.app {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 100px;
+}
+
+.board {
+  text-align: center;
+  margin-top: 20px; /* Reduced margin for closer proximity */
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px; /* Slightly more rounded corners */
+  border: 2px solid #000;
+  padding: 10px;
+  font-size: 24px; /* Larger font size for better visibility */
+  cursor: pointer;
+  background-color: #f0f0f0;
+  margin: 5px;
+  outline: none; /* Remove default button outline */
+}
+
+.square:hover {
+  background-color: #ddd; /* Light hover effect */
+}
+
+.reset-button {
+  margin-top: 20px; /* Adjusted margin */
+  font-size: 18px; /* Larger font size */
+  padding: 10px 20px; /* Padding for better click area */
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px; /* Adjusted font size for consistency */
+  font-weight: 800;
+}
